@@ -336,3 +336,6 @@ au BufWritePost *.coffee silent CoffeeMake! -b | cwindow | redraw! " recompile c
 
 " --- vim-gitgutter
 let g:gitgutter_enabled = 1
+
+" --- NERDTree
+nnoremap <silent> <F9> :NERDTreeToggle<CR>
